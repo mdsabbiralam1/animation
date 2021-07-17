@@ -6,13 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .welcome-sms {
+            background-color: coral;
+            height: 299px;
+        }
+
+        @media only screen and (max-width:688px) {
+            .welcome-sms {
+                background-color: cyan;
+                text-align: right;
+            }
+
+        }
+
+        @media only screen and (min-width:689px) and (max-width:992px) {
+            .welcome-sms {
+                text-align: center;
+                background-color: chartreuse;
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <h3>
-        Md sabbir alam is a good boy
-    </h3>
-
+    <main>
+        <div class="welcome-sms">
+            <h1>welcome to my site</h1>
+        </div>
+    </main>
 </body>
 
 </html>
